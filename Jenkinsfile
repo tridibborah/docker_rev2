@@ -1,4 +1,4 @@
-node {
+node('jenkins_slave1') {
      def app
 stage ('clone repository') {
         checkout scm
